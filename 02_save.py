@@ -9,10 +9,10 @@ data = {
 df = pd.DataFrame(data)
 print(df)
 # How to save csv file
-df.to_csv("02_output_save.csv", index=True)
+df.to_csv("02_output_save.csv", index= False)
 
 # How to save excel file
-df.to_excel("02_output_save.xlsx", index=False)
+df.to_excel("02_output_save.xlsx" , index= False)
 
 # How to save json file
 df.to_json("02_output_save.json", index=False)

@@ -1,9 +1,7 @@
 import pandas as pd
 
-# df = pd.read_json("sample_Data.json")
-# print("\nDisplaying info data\n")
+# df = pd.read_excel("02_output_save.xlsx")
 # print(df.info())
-
 
 data = {
     'Name': ['Alice', 'Bob', 'Charlie'],
@@ -12,5 +10,4 @@ data = {
     }
 
 df = pd.DataFrame(data)
-print("\nDisplaying info data\n")
 print(df.info())
