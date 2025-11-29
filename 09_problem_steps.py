@@ -27,3 +27,4 @@ print(name_age)
 filtered = df[(df["Age"] < 22) & (df["salary"] < 300000)]
 print("\nAge < 22 | salary < 300000\n")
 print(filtered)
+
